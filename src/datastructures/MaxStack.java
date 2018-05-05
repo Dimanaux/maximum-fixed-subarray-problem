@@ -3,12 +3,12 @@ package datastructures;
 public class MaxStack<E extends Comparable<E>> extends SimpleStack<E> {
     private Stack<E> max;
 
-    MaxStack() {
+    public MaxStack() {
         super();
         max = new SimpleStack<>();
     }
 
-    E max() {
+    public E max() {
         return max.top();
     }
 

@@ -6,7 +6,7 @@ import java.util.List;
 public class SimpleStack<E> implements Stack<E> {
     private List<E> stack;
 
-    SimpleStack() {
+    public SimpleStack() {
         stack = new LinkedList<>();
     }
 
